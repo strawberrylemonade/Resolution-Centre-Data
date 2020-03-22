@@ -65,5 +65,30 @@
         ]
       }
     ]
+  },
+  {
+    "id":"c19-wfh-advice",
+    "name": "Advice",
+    "items": [
+      {
+        "id": "workAndHomeAsModes",
+        "name": "Managing 'modes'",
+        "description": "Most people associate 'Work' and 'Home' as places. When working from home, this is no longer true and can provide a really difficult switch. This is tips & advice to associate 'Work' and 'Home' as modes.",
+        "items": [
+          {
+            "id": "guidelinesOnIsolationTime",
+            "name": "When & how long should I stay at home?",
+            "text": "If you live alone and you have symptoms of coronavirus illness (COVID-19), however mild, stay at home for 7 days from when your symptoms started. If you live with others and you are the first in the household to have symptoms of coronavirus, then you must stay at home for 7 days, but all other household members who remain well must stay at home and not leave the house for 14 days. The 14-day period starts from the day when the first person in the house became ill.",
+            "augmentable": false
+          }
+        ],
+        "sources": [
+          {
+            "name": "Glenn Fleishman",
+            "link": "https://www.takecontrolbooks.com/working-from-home/"
+          }
+        ]
+      }
+    ]
   }
 ]
