@@ -48,7 +48,7 @@
         {
           "id": "outsideOfTheHome",
           "name": "What can't I do, even if I don't have any symptoms?",
-          "text": "",
+          "text": "In order to tackle the spread of infection and save lives the following establishments have been closed: Food and drink venues for consumption on-site, such as restaurants and cafés; Drinking establishments, including pubs, bars, nightclubs; Entertainment venues, including cinemas, theatres, concert halls, and bingo halls; Museums and galleries; Spas and massage parlours; Casinos and betting shops; all indoor leisure and sports facilities, including gyms.",
           "augmentable": false
         }
       ],
@@ -56,6 +56,10 @@
         {
           "name": "NHS",
           "link": "https://www.nhs.uk/conditions/coronavirus-covid-19/self-isolation-advice/"
+        },
+        {
+          "name": "UK Govt",
+          "link": "https://www.gov.uk/government/news/government-announces-further-measures-on-social-distancing"
         }
       ]
     }
