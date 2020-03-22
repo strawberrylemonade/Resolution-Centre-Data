@@ -20,4 +20,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./schema.json
-          INPUT_JSONS: ./data/*.json
+          INPUT_JSONS: ./data/c19-wfh-info.json
