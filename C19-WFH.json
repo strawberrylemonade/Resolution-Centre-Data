@@ -1,3 +1,62 @@
 {
-  "id":"c19-wfh"
+  "id":"c19-wfh-info",
+  "name": "Information",
+  "items": [
+    {
+      "id": "isolationInstructions",
+      "name": "Isolation Instructions",
+      "description": "The current instructions and guidance in relation to the isolation of individuals against COVID-19.",
+      "items": [
+        {
+          "id": "guidelinesOnIsolationTime",
+          "name": "When & how long should I stay at home?",
+          "text": "If you live alone and you have symptoms of coronavirus illness (COVID-19), however mild, stay at home for 7 days from when your symptoms started. If you live with others and you are the first in the household to have symptoms of coronavirus, then you must stay at home for 7 days, but all other household members who remain well must stay at home and not leave the house for 14 days. The 14-day period starts from the day when the first person in the house became ill.",
+          "augmentable": false
+        },
+        {
+          "id": "whatShouldIDoWhenIDo",
+          "name": "What should I do when I am isolating?",
+          "text": "If you can, move any vulnerable individuals (such as the elderly and those with underlying health conditions) out of your home, to stay with friends or family for the duration of the home isolation period. Plan ahead and ask others for help to ensure that you can successfully stay at home and consider what can be done for vulnerable people in the household. Wash your hands regularly for 20 seconds, each time using soap and water, or use hand sanitiser.",
+          "augmentable": false
+        },
+        {
+          "id": "ifItGetsWorse",
+          "name": "What should I do if I can't manage at home?",
+          "text": "If you feel you cannot cope with your symptoms at home, or your condition gets worse, or your symptoms do not get better after 7 days, then use the NHS 111 online coronavirus service. If you do not have internet access, call NHS 111. For a medical emergency dial 999.",
+          "link": "https://111.nhs.uk/",
+          "augmentable": false
+        }
+      ],
+      "sources": [
+        {
+          "name": "UK Govt",
+          "link": "https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection"
+        }
+      ]
+    },
+    {
+      "id": "stayingAtHome",
+      "name": "Current guidance on activities",
+      "description": "The current instructions and guidance in relation to the activities you can and can't do.",
+      "items": [
+        {
+          "id": "inIsolation",
+          "name": "What can I do if I'm isolated at home?",
+          "text": "Staying at home means you should: not go to work, school or public areas, not use public transport or taxis, not have visitors, such as friends and family, in your home, not go out to buy food or collect medicine – order them by phone or online, or ask someone else to drop them off at your home. You can use your garden, if you have one. You can also leave the house to exercise – but stay at least 2 metres away from other people.",
+          "augmentable": false
+        },
+        {
+          "id": "outsideOfTheHome",
+          "name": "What can't I do, even if I don't have any symptoms?",
+          "text": ""
+        }
+      ],
+      "sources": [
+        {
+          "name": "NHS",
+          "link": "https://www.nhs.uk/conditions/coronavirus-covid-19/self-isolation-advice/"
+        }
+      ]
+    }
+  ]
 }
