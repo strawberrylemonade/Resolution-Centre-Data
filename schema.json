@@ -1,189 +1,192 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "http://example.com/example.json",
-  "type": "object",
-  "title": "The Root Schema",
-  "description": "The root schema comprises the entire JSON document.",
-  "required": [
-      "id",
-      "name",
-      "items"
-  ],
-  "properties": {
-      "id": {
-          "$id": "#/properties/id",
-          "type": "string",
-          "title": "The Id Schema",
-          "examples": [
-              "c19-wfh-info"
-          ]
-      },
-      "name": {
-          "$id": "#/properties/name",
-          "type": "string",
-          "title": "The Name Schema",
-          "examples": [
-              "Information"
-          ]
-      },
-      "items": {
-          "$id": "#/properties/items",
-          "type": "array",
-          "title": "The Items Schema",
-          "default": [],
-          "items": {
-              "$id": "#/properties/items/items",
-              "type": "object",
-              "title": "The Items Schema",
-              "default": {},
-              "required": [
-                  "id",
-                  "name",
-                  "description",
-                  "items",
-                  "sources"
-              ],
-              "properties": {
-                  "id": {
-                      "$id": "#/properties/items/items/properties/id",
-                      "type": "string",
-                      "title": "The Id Schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": "",
-                      "examples": [
-                          "isolationInstructions"
-                      ]
-                  },
-                  "name": {
-                      "$id": "#/properties/items/items/properties/name",
-                      "type": "string",
-                      "title": "The Name Schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": "",
-                      "examples": [
-                          "Isolation Instructions"
-                      ]
-                  },
-                  "description": {
-                      "$id": "#/properties/items/items/properties/description",
-                      "type": "string",
-                      "title": "The Description Schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": "",
-                      "examples": [
-                          "The current instructions and guidance in relation to the isolation of individuals against COVID-19."
-                      ]
-                  },
-                  "items": {
-                      "$id": "#/properties/items/items/properties/items",
-                      "type": "array",
-                      "title": "The Items Schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": [],
-                      "items": {
-                          "$id": "#/properties/items/items/properties/items/items",
-                          "type": "object",
-                          "title": "The Items Schema",
-                          "description": "An explanation about the purpose of this instance.",
-                          "default": {},
-                          "required": [
-                              "id",
-                              "name",
-                              "text",
-                              "augmentable"
-                          ],
-                          "properties": {
-                              "id": {
-                                  "$id": "#/properties/items/items/properties/items/items/properties/id",
-                                  "type": "string",
-                                  "title": "The Id Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": "",
-                                  "examples": [
-                                      "guidelinesOnIsolationTime"
-                                  ]
-                              },
-                              "name": {
-                                  "$id": "#/properties/items/items/properties/items/items/properties/name",
-                                  "type": "string",
-                                  "title": "The Name Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": "",
-                                  "examples": [
-                                      "When & how long should I stay at home?"
-                                  ]
-                              },
-                              "text": {
-                                  "$id": "#/properties/items/items/properties/items/items/properties/text",
-                                  "type": "string",
-                                  "title": "The Text Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": "",
-                                  "examples": [
-                                      "If you live alone and you have symptoms of coronavirus illness (COVID-19), however mild, stay at home for 7 days from when your symptoms started. If you live with others and you are the first in the household to have symptoms of coronavirus, then you must stay at home for 7 days, but all other household members who remain well must stay at home and not leave the house for 14 days. The 14-day period starts from the day when the first person in the house became ill."
-                                  ]
-                              },
-                              "augmentable": {
-                                  "$id": "#/properties/items/items/properties/items/items/properties/augmentable",
-                                  "type": "boolean",
-                                  "title": "The Augmentable Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": false,
-                                  "examples": [
-                                      false
-                                  ]
-                              }
-                          }
-                      }
-                  },
-                  "sources": {
-                      "$id": "#/properties/items/items/properties/sources",
-                      "type": "array",
-                      "title": "The Sources Schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": [],
-                      "items": {
-                          "$id": "#/properties/items/items/properties/sources/items",
-                          "type": "object",
-                          "title": "The Items Schema",
-                          "description": "An explanation about the purpose of this instance.",
-                          "default": {},
-                          "examples": [
-                              {
-                                  "name": "UK Govt",
-                                  "link": "https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection"
-                              }
-                          ],
-                          "required": [
-                              "name",
-                              "link"
-                          ],
-                          "properties": {
-                              "name": {
-                                  "$id": "#/properties/items/items/properties/sources/items/properties/name",
-                                  "type": "string",
-                                  "title": "The Name Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": "",
-                                  "examples": [
-                                      "UK Govt"
-                                  ]
-                              },
-                              "link": {
-                                  "$id": "#/properties/items/items/properties/sources/items/properties/link",
-                                  "type": "string",
-                                  "title": "The Link Schema",
-                                  "description": "An explanation about the purpose of this instance.",
-                                  "default": "",
-                                  "examples": [
-                                      "https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection"
-                                  ]
-                              }
-                          }
-                      }
-                  }
-              }
-          }
-      }
-  }
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Root Schema",
+    "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+            "id",
+            "name",
+            "items"
+        ],
+        "properties": {
+            "id": {
+                "$id": "#/properties/id",
+                "type": "string",
+                "title": "The Id Schema",
+                "examples": [
+                    "c19-wfh-info"
+                ]
+            },
+            "name": {
+                "$id": "#/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "examples": [
+                    "Information"
+                ]
+            },
+            "items": {
+                "$id": "#/properties/items",
+                "type": "array",
+                "title": "The Items Schema",
+                "default": [],
+                "items": {
+                    "$id": "#/properties/items/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "default": {},
+                    "required": [
+                        "id",
+                        "name",
+                        "description",
+                        "items",
+                        "sources"
+                    ],
+                    "properties": {
+                        "id": {
+                            "$id": "#/properties/items/items/properties/id",
+                            "type": "string",
+                            "title": "The Id Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "isolationInstructions"
+                            ]
+                        },
+                        "name": {
+                            "$id": "#/properties/items/items/properties/name",
+                            "type": "string",
+                            "title": "The Name Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "Isolation Instructions"
+                            ]
+                        },
+                        "description": {
+                            "$id": "#/properties/items/items/properties/description",
+                            "type": "string",
+                            "title": "The Description Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": [
+                                "The current instructions and guidance in relation to the isolation of individuals against COVID-19."
+                            ]
+                        },
+                        "items": {
+                            "$id": "#/properties/items/items/properties/items",
+                            "type": "array",
+                            "title": "The Items Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": [],
+                            "items": {
+                                "$id": "#/properties/items/items/properties/items/items",
+                                "type": "object",
+                                "title": "The Items Schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": {},
+                                "required": [
+                                    "id",
+                                    "name",
+                                    "text",
+                                    "augmentable"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "$id": "#/properties/items/items/properties/items/items/properties/id",
+                                        "type": "string",
+                                        "title": "The Id Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "guidelinesOnIsolationTime"
+                                        ]
+                                    },
+                                    "name": {
+                                        "$id": "#/properties/items/items/properties/items/items/properties/name",
+                                        "type": "string",
+                                        "title": "The Name Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "When & how long should I stay at home?"
+                                        ]
+                                    },
+                                    "text": {
+                                        "$id": "#/properties/items/items/properties/items/items/properties/text",
+                                        "type": "string",
+                                        "title": "The Text Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "If you live alone and you have symptoms of coronavirus illness (COVID-19), however mild, stay at home for 7 days from when your symptoms started. If you live with others and you are the first in the household to have symptoms of coronavirus, then you must stay at home for 7 days, but all other household members who remain well must stay at home and not leave the house for 14 days. The 14-day period starts from the day when the first person in the house became ill."
+                                        ]
+                                    },
+                                    "augmentable": {
+                                        "$id": "#/properties/items/items/properties/items/items/properties/augmentable",
+                                        "type": "boolean",
+                                        "title": "The Augmentable Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": false,
+                                        "examples": [
+                                            false
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "sources": {
+                            "$id": "#/properties/items/items/properties/sources",
+                            "type": "array",
+                            "title": "The Sources Schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": [],
+                            "items": {
+                                "$id": "#/properties/items/items/properties/sources/items",
+                                "type": "object",
+                                "title": "The Items Schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": {},
+                                "examples": [
+                                    {
+                                        "name": "UK Govt",
+                                        "link": "https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection"
+                                    }
+                                ],
+                                "required": [
+                                    "name",
+                                    "link"
+                                ],
+                                "properties": {
+                                    "name": {
+                                        "$id": "#/properties/items/items/properties/sources/items/properties/name",
+                                        "type": "string",
+                                        "title": "The Name Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "UK Govt"
+                                        ]
+                                    },
+                                    "link": {
+                                        "$id": "#/properties/items/items/properties/sources/items/properties/link",
+                                        "type": "string",
+                                        "title": "The Link Schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
