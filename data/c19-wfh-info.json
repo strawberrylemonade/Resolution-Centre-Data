@@ -48,7 +48,8 @@
         {
           "id": "outsideOfTheHome",
           "name": "What can't I do, even if I don't have any symptoms?",
-          "text": ""
+          "text": "",
+          "augmentable": false
         }
       ],
       "sources": [
