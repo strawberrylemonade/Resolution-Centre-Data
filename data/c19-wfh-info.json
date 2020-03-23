@@ -63,6 +63,37 @@
             "link": "https://www.gov.uk/government/news/government-announces-further-measures-on-social-distancing"
           }
         ]
+      },
+      {
+        "id": "sickPay",
+        "name": "Sick Pay",
+        "description": "The current law & support around pay while sick with COVID-19.",
+        "items": [
+          {
+            "id": "anyoneFollowingAdvice",
+            "name": "Following Advice",
+            "text": "Those who follow advice to stay at home and who cannot work as a result will be eligible for statutory sick pay (SSP), even if they are not themselves sick.",
+            "augmentable": false
+          },
+          {
+            "id": "anyoneFollowingAdvice",
+            "name": "Eligibility",
+            "text": "Anyone not eligible to receive sick pay, including those earning less than an average of £118 per week, some of those working in the gig economy, or self-employed people, is able to claim Universal Credit and or contributory Employment and Support Allowance.",
+            "augmentable": false
+          },
+          {
+            "id": "withChildren",
+            "name": "Looking after children",
+            "text": "You are entitled to take sick leave if you have children you need to look after or arrange childcare for because their school has closed or to help your child or another dependant if they’re sick, or need to go into isolation or hospital.",
+            "augmentable": false
+          }
+        ],
+        "sources": [
+          {
+            "name": "UK Govt",
+            "link": "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/guidance-for-employers-and-businesses-on-coronavirus-covid-19#sick-pay"
+          }
+        ]
       }
     ]
   },
