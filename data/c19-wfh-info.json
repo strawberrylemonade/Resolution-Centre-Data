@@ -49,7 +49,7 @@
           {
             "id": "outsideOfTheHome",
             "name": "What can't I do, even if I don't have any symptoms?",
-            "text": "In order to tackle the spread of infection and save lives the following establishments have been closed: Food and drink venues for consumption on-site, such as restaurants and cafés; Drinking establishments, including pubs, bars, nightclubs; Entertainment venues, including cinemas, theatres, concert halls, and bingo halls; Museums and galleries; Spas and massage parlours; Casinos and betting shops; all indoor leisure and sports facilities, including gyms.",
+            "text": "As of midnight of the 23rd of March, everyone must remain at home. You are allowed to leave to buy food & essentials. You are allowed to leave to care for someone to is vulnerable. You are allowed to leave for 1 walk or run a day for exercise only. If you are a key worker, you are allowed to travel to work.",
             "augmentable": false
           }
         ],
@@ -92,6 +92,37 @@
           {
             "name": "UK Govt",
             "link": "https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/guidance-for-employers-and-businesses-on-coronavirus-covid-19#sick-pay"
+          }
+        ]
+      },
+      {
+        "id": "keyWorkers",
+        "name": "Key Workers",
+        "description": "The guidance around who key workers are and what they are allowed to do.",
+        "items": [
+          {
+            "id": "whoAreKeyWorkers",
+            "name": "Who is a key worker?",
+            "text": "If your work is critical to the COVID-19 response, or you work in one of the critical sectors listed below then you are a key worker; Health and social care, Education and childcare, Key public services, Local and national government, Food and other necessary goods, Public safety and national security, Transport or Utilities, communication and financial services.",
+            "augmentable": false
+          },
+          {
+            "id": "whatCanYouDo",
+            "name": "Eligibility",
+            "text": "If you are a key worker, your use of public transport is prioritised. You may travel to work if you must. You must still follow all social distancing advice and other isolation rules.",
+            "augmentable": false
+          },
+          {
+            "id": "withChildren",
+            "name": "Looking after children",
+            "text": "As a key workers, you children can still go their school and be looked after by their teachers. This is to allow you to work while keeping them safe.",
+            "augmentable": false
+          }
+        ],
+        "sources": [
+          {
+            "name": "UK Govt",
+            "link": "https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision"
           }
         ]
       }
